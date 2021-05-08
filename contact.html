@@ -11,12 +11,12 @@
 </head>
 <body class="home">
   <div class="container">
-    <div class="contact" style="background-image: url(img/2.1.jpg);">
+    <div class="contact">
       <div class="main-nav">
                <nav>
-                 <a href="index1.html"><img src="https://fiori.ua/wp-content/uploads/2020/06/logo.svg" alt="Fiori" style="height:56px; margin-left: 15px;"></a>
+                 <a href="index.html"><img src="https://fiori.ua/wp-content/uploads/2020/06/logo.svg" alt="Fiori" style="height:56px; margin-left: 15px;"></a>
                    <ul>
-                     <li><a href="index1.html">Головна</a></li>
+                     <li><a href="index.html">Головна</a></li>
                      <li><a href="#">Про нас</a></li>
                      <li><a href="#">Послуги</a></li>
                      <li><a href="#">Галерея</a></li>
@@ -24,7 +24,7 @@
                    </ul>
                </nav>
        </div>
-       <header id="header">
+       <header id="header" style="background-image: url(img/2.1.jpg); height:350px;">
            <h1>Контакти</h1>
        </header>
     </div>
@@ -59,9 +59,9 @@
           </div>
         </li>
       </ul>
-      <aside class="right">
+
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42119.09423239838!2d37.52782676487025!3d48.71611886764437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df97a4c0ea9b9b%3A0x6cfddec1592678ec!2z0JrRgNCw0LzQsNGC0L7RgNGB0LosINCU0L7QvdC10YbQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1620218746640!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </aside>
+
     </div>
   </article>
 
@@ -80,7 +80,7 @@
   </div>
   <div class="telephone">
     <label for="name"></label>
-    <input type="text" placeholder="Ваш number" name="telephone" id="telephone_input" required>
+    <input type="text" placeholder="Ваш номер" name="telephone" id="telephone_input" required>
   </div>
   <div class="subject">
     <label for="subject"></label>
@@ -101,16 +101,29 @@
 </form>
   </div>
 
-  <footer>
-    <div id="footer">
-
-        <ul class="uk-nav uk-nav-default"><li id="menu-item-13655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13655"><a href="https://fiori.ua/poslugy/oformlennya-vesil"><span>Оформлення весіль</span></a></li>
-          <li><a href=#><span>Оформлення івентів</span></a></li>
-          <li><a href=#><span>Оформлення будинків</span></a></li>
-          <li><a href=#><span>Готелі. Ресторани. Кейтерінг</span></a></li>
-        </ul>
-  </div>
-  </footer>
+  <footer class="footer">
+      <div class="footer-container">
+          <ul class="footer-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Case studies</a></li>
+              <li><a href="#">Our Work</a></li>
+              <li><a href="#">Blog</a></li>
+          </ul>
+          <ul class="footer-secondary-nav">
+              <li><a href="#">Latest News</a></li>
+              <li><a href="#">Our Partners</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Freebies</a></li>
+              <li><a href="#">Fun stuff</a></li>
+          </ul>
+          <div class="contact-block">
+              <h3>We're happy to hear from you!</h3>
+              <a href="tel:999-999-4321"><i class="fas fa-phone"></i> 999-999-4321</a>
+              <a href="mailto:info@mycompany.xyz">info@mycompany.xyz</a>
+          </div>
+      </div><!-- .footer-container -->
+  </footer><!-- .footer -->
 </div>
 </body>
 </html>
